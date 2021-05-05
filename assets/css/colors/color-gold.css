@@ -52,6 +52,14 @@ a.arrow-down:hover{
 .no-touch .cd-timeline-content .cd-read-more:hover {
   background-color: #00afef;
 }
+
+.own_btn .cd-read-more {
+  border:2px solid #00AFEF;
+}
+.own_btn .cd-read-more:hover {
+  background-color: #00AFEF;
+}
+
 .cd-timeline-content .cd-date {
 	color:#cfa144;
 }
@@ -65,19 +73,19 @@ a.arrow-down:hover{
 }
 
 .facts-box-1-num{
-	color:#cfa144;
+	color:#FAFAFA;
 }
 .facts-box-2 h6{
 	color:#cfa144;
 }  
 .cd-single-point > a {
-  background: #cfa144;
+  background: #00afef;
 }
 .ajax-project-info .ajax-info span{
-	color:#cfa144;
+	color:#00afef;
 }
 .ajax-link{
-	color:#cfa144;
+	color:#00afef;
 }
 .blog-box-1.link-post{
 	background:#cfa144;
@@ -167,7 +175,7 @@ a.arrow-down:hover{
 	color: #cfa144;
 }
 .list-social li.icon-soc a {
-	color: #cfa144;
+	color: #00afef;
 }
 .smk_accordion .accordion_in .acc_head:hover {
 	background:#cfa144;
@@ -198,7 +206,7 @@ a.arrow-down:hover{
 	color:#cfa144;
 }
 .footer-1 p a:hover{
-	color: #cfa144;
+	color: #00AFEF;
 } 
 .icon-footer{
 	color: #cfa144;
