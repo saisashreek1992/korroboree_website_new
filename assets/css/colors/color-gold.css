@@ -118,7 +118,7 @@ a.arrow-down:hover{
 	color:#cfa144;
 }
 .page-top-icon{
-	color:#cfa144;
+	color:#00afef;
 }
 
 
@@ -157,7 +157,7 @@ a.arrow-down:hover{
 	background:#cfa144;
 }
 .portfolio-box-2:hover h6{
-	color: #cfa144;
+	color: #00afef;
 }
 .services-boxes-2 .icon-box{
 	color: #cfa144;
@@ -169,7 +169,7 @@ a.arrow-down:hover{
 	color: #cfa144;
 }
 .team-box-1 .team-box-1-text-in h6{
-	color: #cfa144;
+	color: #212121;
 }
 .team-social li:hover.icon-team a {
 	color: #cfa144;
@@ -240,19 +240,19 @@ a.arrow-down:hover{
 }
 .owl-theme .owl-controls .owl-page.active span,
 .owl-theme .owl-controls.clickable .owl-page:hover span{
-	background:#cfa144;
+	background:#00AFEF;
 }
 #owl-top-page-slider.owl-theme .owl-controls .owl-page.active span,
 #owl-top-page-slider.owl-theme .owl-controls.clickable .owl-page:hover span{
-	background:#cfa144;
+	background:#00AFEF;
 }
 #carousel-team-3col.owl-theme .owl-controls .owl-page.active span,
 #carousel-team-3col.owl-theme .owl-controls.clickable .owl-page:hover span{
-	background:#cfa144;
+	background:#00AFEF;
 }
 #carousel-team-4col.owl-theme .owl-controls .owl-page.active span,
 #carousel-team-4col.owl-theme .owl-controls.clickable .owl-page:hover span{
-	background:#cfa144;
+	background:#00AFEF;
 }
 .fullscreen-title-home span{
 	color:#cfa144;
@@ -277,7 +277,7 @@ a.arrow-down:hover{
   color: #cfa144;
 }
 .pro-bar {
-	background: #cfa144;
+	background: #00afef;
 }
 
 .services-boxes-2:hover .icon-box.full-icon-box{
@@ -326,7 +326,7 @@ a.arrow-down:hover{
     color: #00afef;
   }
   .cd-primary-nav .cd-nav-icons .cd-nav-item h3 {
-    color: #00afef;
+    color: #212121;
   }
   .has-children > a:hover::before, .has-children > a:hover::after, .go-back a:hover::before, .go-back a:hover::after {
     background: #00afef;
