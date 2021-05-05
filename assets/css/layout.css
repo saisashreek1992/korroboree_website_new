@@ -7382,7 +7382,7 @@ Main components
 }
 
 .parallax-2 {
-	background: url('../images/parallax/2.jpg') repeat fixed;
+	background: url("../images/features/job2.jpg") repeat fixed;
 	background-size: cover;
 	position: absolute;
 	top: 0; 
