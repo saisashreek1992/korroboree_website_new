@@ -32,6 +32,7 @@
 		.column.omega, .columns.omega               { margin-right: 0; }
 
 		/* Base Grid */
+        .container .own_three.columns                    { width: 373px; }
 		.container .one.column,
 		.container .one.columns                     { width: 55px;  }
 		.container .two.columns                     { width: 130px; }
@@ -57,7 +58,7 @@
 		.container .offset-by-one                   { padding-left: 75px;  }
 		.container .offset-by-two                   { padding-left: 150px; }
 		.container .offset-by-three                 { padding-left: 225px; }
-		.container .offset-by-four                  { padding-left: 300px; }
+		.container .offset-by-four                  { padding-left: 275px; }
 		.container .offset-by-five                  { padding-left: 375px; }
 		.container .offset-by-six                   { padding-left: 450px; }
 		.container .offset-by-seven                 { padding-left: 525px; }
