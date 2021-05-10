@@ -85,7 +85,7 @@
 }
 
 .parallax-about-me_mind{
-    background: url(../images/brain.jpg) repeat fixed;
+    background: url(../images/features/brain.jpg) repeat fixed;
     background-size: cover;
     position: absolute;
     top: 0;
@@ -97,7 +97,7 @@
 }
 
 .parallax-about-me_heart{
-    background: url(../images/heart.jpg) repeat fixed;
+    background: url(../images/features/heart.jpg) repeat fixed;
     background-size: cover;
     position: absolute;
     top: 0;
@@ -109,7 +109,7 @@
 
 }
 .parallax-about-me_soul{
-    background: url(../images/soul.jpg) repeat fixed;
+    background: url(../images/features/soul.jpg) repeat fixed;
     background-size: cover;
     position: absolute;
     top: 0;
@@ -121,7 +121,7 @@
 
 }
 .parallax-about-me_inner{
-    background: url(../images/max.jpg) repeat fixed;
+    background: url(../images/features/max.jpg) repeat fixed;
     background-size: cover;
     position: absolute;
     top: 0;
@@ -133,7 +133,7 @@
 
 }
 .parallax-about-me_attrbuites{
-    background: url(../images/embrace2.jpg) repeat fixed;
+    background: url(../images/features/embrace2.jpg) repeat fixed;
     background-size: cover;
     position: absolute;
     top: 0;
