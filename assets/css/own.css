@@ -4,7 +4,7 @@
     max-height:60px
 }
 .clr_white{
-    color: white;
+    color: black;
 }
 .pt-40{
     padding-top: 40px;
@@ -56,23 +56,31 @@
     border-top-left-radius: 0px!important;
     border-bottom-left-radius: 0px!important;
 }
-.chnge_colr2{
+.chnge_colr2 {
     background-color: #f3f3f3;
-    height: 500px;
+    height: 466px;
 }
 .chnge_colr{
     background-color: #f3f3f3;
-    height: 580px;
+    height: 607px;
 }
 .prduct_clr:hover{
     color: #00AFEF !important;
 }
 
-.clr_white{
-    color: white;
-}
 
 .own_btn .cd-read-more{
+    padding: 7px 22px;
+    color: #fff;
+    border-radius: 3px;
+    text-transform: uppercase;
+    -webkit-transition: color .3s, background .3s;
+    -moz-transition: color .3s, background .3s;
+    transition: color .3s, background .3s;
+    font-family: 'lato';
+    font-size: 12px;
+}
+.own_btn1 .cd-read-more{
     padding: 7px 22px;
     color: #fff;
     border-radius: 3px;
@@ -166,8 +174,11 @@
 .footerforms {
     background: #fff;
     padding: 25px 25px 0px;
-    width: 365px;
-    float: right;
+    width: 366px;
+    position: fixed;
+    left: 10rem;
+    margin-top: -262px;
+    float: left;
     border-radius: 10px;
 }
 .wpcf7-form-control-wrap {
