@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>korroboree</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css'>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/addcart.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+    integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+    integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+    crossorigin="anonymous"></script>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css'>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;display=swap'>
+
+  <style>
+    button:focus {
+      outline: none;
+      border: none;
+
+    }
+  </style>
+
+</head>
+
+<body style="overflow-y: scroll;overflow-x: hidden; background: white;">
+  <!-- partial:index.partial.html -->
+  <div class="book-store">
+    <div class="header">
+      <nav class="navbar navbar-expand-lg navbar-light"
+        style="background:#fff;height:60px;width:100%;position:fixed;z-index:1;left:0;">
+        <a class="navbar-brand" href="main.html">
+          <img src="assets/images/logo/logo1.png" width="160" id="brands" height="60" class="img-fluid" alt=""
+            style="position: relative; top:2px;left:2px;" />
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+          aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="main.html"><Small>Home </Small></a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                <Small>Resources </Small>
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Journal</a>
+                <a class="dropdown-item" href="video.html">Video Journal</a>
+
+              </div>
+            </li>
+
+
+
+            <li class="nav-item">
+              <a class="nav-link" href="#ftr" id="m7"><Small>Contact Us</Small></a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="cart.html" id="m7">
+                <big>
+                  <i class="fa fa-shopping-cart"></i>
+                </big>
+              </a>
+            </li>
+            <li class="nav-item" style="padding-top:8px">
+              <a class="nav-link" href="signin.html">
+                <button style="color:white;background:#3E4095" id="btnkorro">
+                  <small>Sign In</small>
+                </button>
+              </a>
+            </li>
+
+
+
+          </ul>
+      </nav>
+
+    </div>
+    <div class="book-slide">
+      <div class="book js-flickity" data-flickity-options='{ "wrapAround": true }'>
+        <div class="book-cell">
+          <div class="book-img">
+            <img src="assets/images/books/Test 1.png" alt="" class="book-photo">
+          </div>
+          <div class="book-content">
+            <div class="book-title">Korroborree Journal 1</div>
+            <div class="book-author">Foundation Session </div>
+            <!--  <div class="rate">
+      <fieldset class="rating">
+       <input type="checkbox" id="star5" name="rating" value="5" />
+       <label class="full" for="star5"></label>
+       <input type="checkbox" id="star4" name="rating" value="4" />
+       <label class="full" for="star4"></label>
+       <input type="checkbox" id="star3" name="rating" value="3" />
+       <label class="full" for="star3"></label>
+       <input type="checkbox" id="star2" name="rating" value="2" />
+       <label class="full" for="star2"></label>
+       <input type="checkbox" id="star1" name="rating" value="1" />
+       <label class="full" for="star1"></label>
+      </fieldset>
+      <span class="book-voters">1.987 voters</span>
+     </div>-->
+            <div class="book-sum"> Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out
+              print, graphic or web designs. The passage is attributed to an unknown
+              typesetter in the 15th century who is thought to have
+              scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.</div>
+            <div class="book-see">View Journal</div>
+          </div>
+        </div>
+        <div class="book-cell">
+          <div class="book-img">
+            <img src="assets/images/books/Test 21.png" alt="" class="book-photo">
+          </div>
+          <div class="book-content">
+            <div class="book-title">Korroborree Journal 3</div>
+            <div class="book-author">Growth Mindset</div>
+
+            <div class="book-sum">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out
+              print, graphic or web designs. The passage is attributed to an unknown typesetter i
+              n the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for
+              use in a type specimen book.</div>
+            <br>
+
+            <button class="add-to-cart">
+              <div class="default">Add to cart</div>
+              <div class="success">Added</div>
+              <div class="cart">
+                <div>
+                  <div></div>
+                  <div></div>
+                </div>
+              </div>
+              <div class="dots"></div>
+            </button>
+          </div>
+        </div>
+        <div class="book-cell">
+          <div class="book-img">
+            <img src="assets/images/books/Test 21.png" alt="" class="book-photo">
+          </div>
+          <div class="book-content">
+            <div class="book-title">Korroborree Journal 3</div>
+            <div class="book-author">Growth Mindset</div>
+
+            <div class="book-sum">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out
+              print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th
+              century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type
+              specimen book.</div>
+
+            <br>
+
+            <button class="add-to-cart">
+              <div class="default">Add to cart</div>
+              <div class="success">Added</div>
+              <div class="cart">
+                <div>
+                  <div></div>
+                  <div></div>
+                </div>
+              </div>
+              <div class="dots"></div>
+            </button>
+
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+
+
+
+    <div class="main-wrapper">
+      <div class="books-of">
+        <div class="week">
+          <div class="author-title">Authors</div>
+          <div class="author">
+            <img src="assets/images/author/linaAshar.jpg" alt="" class="author-img">
+            <div class="author-name">Lina Ashar</div>
+          </div>
+
+        </div>
+        <div class="week year">
+          <div class="author-title">Top Rated Journals</div>
+
+
+          <div class="year-book">
+            <img src="assets/images/books/Test 1.png" alt="" class="year-book-img">
+            <div class="year-book-content">
+              <div class="year-book-name">Foundation Session</div>
+              <div class="year-book-author">by Lina Ashar</div>
+            </div>
+          </div>
+          <div class="year-book">
+            <img src="assets/images/books/Test 21.png" alt="" class="year-book-img">
+            <div class="year-book-content">
+              <div class="year-book-name">Growth Mindset</div>
+              <div class="year-book-author">by Lina Ashar</div>
+            </div>
+          </div>
+        </div>
+        <div class="overlay"></div>
+      </div>
+      <div class="popular-books">
+        <div class="main-menu">
+          <div class="genre">Journal by Month</div>
+          <div class="book-types">
+            <a href="#" class="book-type active"> All Journals</a>
+            <a href="#" class="book-type"> March</a>
+            <a href="#" class="book-type"> February</a>
+            <a href="#" class="book-type"> January</a>
+            <a href="#" class="book-type"> December</a>
+            <a href="#" class="book-type"> More</a>
+          </div>
+        </div>
+        <div class="book-cards">
+
+
+          <div class="book-card">
+            <div class="content-wrapper">
+              <img src="assets/images/books/Test 1.png" alt="" class="book-card-img">
+              <div class="card-content">
+                <div class="book-name">Korroborree Journal 1</div>
+                <div class="book-by">by Lina Ashar</div>
+                <div class="rate">
+                  <fieldset class="rating book-rate">
+                    <input type="checkbox" id="star-c1" name="rating" value="5">
+                    <label class="full" for="star-c1"></label>
+                    <input type="checkbox" id="star-c2" name="rating" value="4">
+                    <label class="full" for="star-c2"></label>
+                    <input type="checkbox" id="star-c3" name="rating" value="3">
+                    <label class="full" for="star-c3"></label>
+                    <input type="checkbox" id="star-c4" name="rating" value="2">
+                    <label class="full" for="star-c4"></label>
+                    <input type="checkbox" id="star-c5" name="rating" value="1">
+                    <label class="full" for="star-c5"></label>
+                  </fieldset>
+                  <span class="book-voters card-vote">10000 Voters</span>
+                </div>
+                <div class="book-sum card-sum">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in
+                  laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the
+                  15th
+                  century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a
+                  type specimen book </div>
+              </div>
+            </div>
+            <div class="likes">
+              <div class="like-profile">
+                <img src="https://randomuser.me/api/portraits/women/63.jpg" alt="" class="like-img">
+              </div>
+              <div class="like-profile">
+                <img src="https://pbs.twimg.com/profile_images/2452384114/noplz47r59v1uxvyg8ku.png" alt=""
+                  class="like-img">
+              </div>
+              <div class="like-profile">
+                <img
+                  src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=80"
+                  alt="" class="like-img">
+              </div>
+              <div class="like-name"><span>Samantha William</span> and<span> 2 other friends</span> like this</div>
+            </div>
+          </div>
+
+
+
+
+
+
+          <div class="book-card">
+            <div class="content-wrapper">
+              <img src="assets/images/books/Test 21.png" alt="" class="book-card-img">
+              <div class="card-content">
+                <div class="book-name">Korroborree Journal 3</div>
+                <div class="book-by">by Lina Ashar</div>
+                <div class="rate">
+                  <fieldset class="rating book-rate">
+                    <input type="checkbox" id="star-c1" name="rating" value="5">
+                    <label class="full" for="star-c1"></label>
+                    <input type="checkbox" id="star-c2" name="rating" value="4">
+                    <label class="full" for="star-c2"></label>
+                    <input type="checkbox" id="star-c3" name="rating" value="3">
+                    <label class="full" for="star-c3"></label>
+                    <input type="checkbox" id="star-c4" name="rating" value="2">
+                    <label class="full" for="star-c4"></label>
+                    <input type="checkbox" id="star-c5" name="rating" value="1">
+                    <label class="full" for="star-c5"></label>
+                  </fieldset>
+                  <span class="book-voters card-vote">10000 Voters</span>
+                </div>
+                <div class="book-sum card-sum">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in
+                  laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the
+                  15th
+                  century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a
+                  type specimen book </div>
+              </div>
+            </div>
+            <div class="likes">
+              <div class="like-profile">
+                <img src="https://randomuser.me/api/portraits/women/63.jpg" alt="" class="like-img">
+              </div>
+              <div class="like-profile">
+                <img src="https://pbs.twimg.com/profile_images/2452384114/noplz47r59v1uxvyg8ku.png" alt=""
+                  class="like-img">
+              </div>
+              <div class="like-profile">
+                <img
+                  src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=80"
+                  alt="" class="like-img">
+              </div>
+              <div class="like-name"><span>Samantha William</span> and<span> 2 other friends</span> like this</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="row justify-content-center ">
+
+    <footer id="ftr">
+      <div class="row justify-content-center" style="padding-top: 10px;">
+        <div class="col-md-3 col-lg-3" style="height: 290px;padding:60px 20px">
+          <img src="assets/images/logo/Korroboree-footer-logo.png" style="width: auto;">
+          <br>
+          <br>
+          <span style="font-family: segoe ui semibold; color:#fff;font-size: 17px;">
+            @korroboree 2020
+          </span>
+          <br><br><br>
+          <a href="#">
+            <li class="fa fa-facebook social"></li>
+          </a>
+          <a href="#">
+            <li class="fa fa-twitter social"></li>
+          </a>
+          <a href="#">
+            <li class="fa fa-instagram social"></li>
+          </a>
+          <a href="#">
+            <li class="fa fa-youtube social"></li>
+          </a>
+
+        </div>
+        <div class="col-md-3 col-lg-3" style="height: 290px;padding: 20px 20px;">
+          <br>
+
+          <span style="font-family: segoe ui semibold; color:#fff;font-size: 19px;">
+            Information
+            <hr / style="border-bottom: 2px solid white;width:15%;position:absolute;left:4%;">
+          </span>
+          <br><br><br>
+          <span style="font-family: segoe ui semibold; color:#fff;font-size: 16px;">
+            About Us
+
+            <br><br>
+            Contact Us
+            <br><br>
+            Terms & Conditions
+          </span>
+        </div>
+        <div class="col-md-3 col-lg-3" style="height: 290px">
+          <br>
+          <br>
+          <span style="font-family: segoe ui semibold; color:#fff;font-size: 19px;">
+            Contact Us
+            <hr / style="border-bottom: 2px solid white;width:15%;position:absolute;left:4%;">
+          </span>
+
+        </div>
+
+      </div>
+    </footer>
+  </div>
+  <!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src='assets/js/addcart.js'></script>
+</body>
+
+</html>

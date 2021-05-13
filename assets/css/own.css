@@ -5,6 +5,7 @@
 }
 .clr_white{
     color: black;
+    margin-top: -20px;
 }
 .pt-40{
     padding-top: 40px;
@@ -177,7 +178,8 @@
     width: 366px;
     position: fixed;
     left: 10rem;
-    margin-top: -262px;
+    box-shadow: 3px -1px 0px 2px lightgrey;
+    margin-top: -246px;
     float: left;
     border-radius: 10px;
 }

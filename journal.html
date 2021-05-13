@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <!-- Basic Page Needs
+         ================================================== -->
+    <meta charset="utf-8">
+    <title>Korroboree</title>
+    <meta name="Content-Type" http-equiv="Keywords">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="5TH Dimension Technologies">
+    <!-- Mobile Specific Metas
+         ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- CSS
+         ================================================== -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css'>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/addcart.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/base.css" />
+    <link rel="stylesheet" href="assets/css/skeleton.css" />
+    <link rel="stylesheet" href="assets/css/layout.css" />
+    <link rel="stylesheet" href="assets/css/own.css" />
+    <link rel="stylesheet" href="assets/css/settings.css" />
+    <link rel="stylesheet" href="assets/css/animsition.min.css" />
+    <link rel="alternate stylesheet" type="text/css" href="assets/css/colors/color-gold.css" title="1">
+    <link rel="alternate stylesheet" type="text/css" href="assets/css/colors/color-2.css" title="2">
+    <link rel="alternate stylesheet" type="text/css" href="assets/css/colors/color-3.css" title="3">
+    <link rel="alternate stylesheet" type="text/css" href="assets/css/colors/color-4.css" title="4">
+    <link rel="alternate stylesheet" type="text/css" href="assets/css/colors/color-5.css" title="5">
+    <link rel="alternate stylesheet" type="text/css" href="assets/css/colors/color-6.css" title="6">
+    <link rel="alternate stylesheet" type="text/css" href="assets/css/colors/color-7.css" title="7">
+    <!-- Favicons
+         ================================================== -->
+    <link rel="apple-touch-icon" href="assets/images/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicon/apple-touch-icon-114x114.png">
+
+    <!-- <------- -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+        integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+        integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+        crossorigin="anonymous"></script>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css'>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;display=swap'>
+
+</head>
+
+<body>
+    <!-- Primary Page Layout
+         ================================================== -->
+    <div class="animsition">
+        <!-- MENU
+            ================================================== -->
+        <div class="header-top">
+            <header class="cd-main-header">
+                <a class="cd-logo animsition-link" href="index.html"><img src="assets/images/logos/logo.png"
+                        alt="Logo"></a>
+                <ul class="cd-header-buttons">
+                    <li><a class="cd-search-trigger" href="#cd-search"><span></span></a></li>
+                    <li><a class="cd-nav-trigger" href="#cd-primary-nav"><span></span></a></li>
+                </ul>
+                <!-- cd-header-buttons -->
+            </header>
+            <nav class="cd-nav">
+                <ul id="cd-primary-nav" class="cd-primary-nav is-fixed">
+                    <li>
+                        <a href="index.html" class="animsition-link">Home</a>
+                    </li>
+                    <li class="has-children">
+                        <a href="#">About</a>
+                        <ul class="cd-nav-icons is-hidden">
+                            <li>
+                                <a class="cd-nav-item item-1 animsition-link" href="pages/about/who_we_are.html">
+                                    <h3>Who We Are</h3>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="cd-nav-item item-2 animsition-link" href="pages/about/our_team.html">
+                                    <h3>Our Team</h3>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="cd-nav-item item-3 animsition-link" href="pages/about/media_centre.html">
+                                    <h3>Media Centre</h3>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="cd-nav-item item-4 animsition-link" href="pages/about/events.html">
+                                    <h3>Events</h3>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="has-children">
+                        <a href="#">Products</a>
+                        <ul class="cd-nav-gallery is-hidden">
+                            <li>
+                                <a class="cd-nav-item animsition-link" href="pages/products/products.html">
+                                    <img src="assets/images/shop1.jpg" alt="Product Image">
+                                    <h3>Product 1</h3>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="cd-nav-item animsition-link" href="pages/products/products.html">
+                                    <img src="assets/images/shop2.jpg" alt="Product Image">
+                                    <h3>Product 2</h3>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="cd-nav-item animsition-link" href="pages/products/products.html">
+                                    <img src="assets/images/shop3.jpg" alt="Product Image">
+                                    <h3>Product 3</h3>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="cd-nav-item animsition-link" href="pages/products/products.html">
+                                    <img src="assets/images/shop4.jpg" alt="Product Image">
+                                    <h3>Product 4</h3>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="has-children">
+                        <a href="#">Resources</a>
+                        <ul class="cd-nav-icons is-hidden">
+                            <li>
+                                <a class="cd-nav-item item-1 animsition-link" href="pages/resources/courses.html">
+                                    <h3>Courses</h3>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="cd-nav-item item-2 animsition-link" href="pages/resources/journals.html">
+                                    <h3>Journals</h3>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="cd-nav-item item-3 animsition-link"
+                                    href="pages/resources/video_journals.html">
+                                    <h3>Video Journals</h3>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="cd-nav-item item-4 animsition-link" href="pages/resources/blog.html">
+                                    <h3>Blog</h3>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="contact_us.html" class="animsition-link">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="sign_in.html" class="animsition-link active" style="color: #00afef !important;">Sign
+                            In</a>
+                    </li>
+                    <li>
+                        <a href="cart.html" class="animsition-link"><i class="fa fa-fw">&#xf07a;</i>cart</a>
+                    </li>
+                </ul>
+                <!-- primary-nav -->
+            </nav>
+            <!-- cd-nav -->
+            <div id="cd-search" class="cd-search">
+                <form>
+                    <input type="search" placeholder="Search...">
+                </form>
+            </div>
+        </div>
+        <main class="cd-main-content">
+            <!-- HOME SECTION
+        ================================================== -->
+            <div class="book-slide">
+                <div class="book js-flickity" data-flickity-options='{ "wrapAround": true }'>
+                    <div class="book-cell">
+                        <div class="book-img">
+                            <img src="assets/images/books/Test 1.png" alt="" class="book-photo">
+                        </div>
+                        <div class="book-content">
+                            <div class="book-title">Korroborree Journal 1</div>
+                            <div class="book-author">Foundation Session </div>
+                            <!--  <div class="rate">
+            <fieldset class="rating">
+             <input type="checkbox" id="star5" name="rating" value="5" />
+             <label class="full" for="star5"></label>
+             <input type="checkbox" id="star4" name="rating" value="4" />
+             <label class="full" for="star4"></label>
+             <input type="checkbox" id="star3" name="rating" value="3" />
+             <label class="full" for="star3"></label>
+             <input type="checkbox" id="star2" name="rating" value="2" />
+             <label class="full" for="star2"></label>
+             <input type="checkbox" id="star1" name="rating" value="1" />
+             <label class="full" for="star1"></label>
+            </fieldset>
+            <span class="book-voters">1.987 voters</span>
+           </div>-->
+                            <div class="book-sum"> Lorem ipsum, or lipsum as it is sometimes known, is dummy text used
+                                in laying out
+                                print, graphic or web designs. The passage is attributed to an unknown
+                                typesetter in the 15th century who is thought to have
+                                scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen
+                                book.</div>
+                            <div class="book-see">View Journal</div>
+                        </div>
+                    </div>
+                    <div class="book-cell">
+                        <div class="book-img">
+                            <img src="assets/images/books/Test 21.png" alt="" class="book-photo">
+                        </div>
+                        <div class="book-content">
+                            <div class="book-title">Korroborree Journal 3</div>
+                            <div class="book-author">Growth Mindset</div>
+
+                            <div class="book-sum">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in
+                                laying out
+                                print, graphic or web designs. The passage is attributed to an unknown typesetter i
+                                n the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum
+                                et Malorum for
+                                use in a type specimen book.</div>
+                            <br>
+
+                            <button class="add-to-cart">
+                                <div class="default">Add to cart</div>
+                                <div class="success">Added</div>
+                                <div class="cart">
+                                    <div>
+                                        <div></div>
+                                        <div></div>
+                                    </div>
+                                </div>
+                                <div class="dots"></div>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="book-cell">
+                        <div class="book-img">
+                            <img src="assets/images/books/Test 21.png" alt="" class="book-photo">
+                        </div>
+                        <div class="book-content">
+                            <div class="book-title">Korroborree Journal 3</div>
+                            <div class="book-author">Growth Mindset</div>
+
+                            <div class="book-sum">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in
+                                laying out
+                                print, graphic or web designs. The passage is attributed to an unknown typesetter in the
+                                15th
+                                century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum
+                                for use in a type
+                                specimen book.</div>
+
+                            <br>
+
+                            <button class="add-to-cart">
+                                <div class="default">Add to cart</div>
+                                <div class="success">Added</div>
+                                <div class="cart">
+                                    <div>
+                                        <div></div>
+                                        <div></div>
+                                    </div>
+                                </div>
+                                <div class="dots"></div>
+                            </button>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+
+
+            <div class="main-wrapper">
+                <div class="books-of">
+                    <div class="week">
+                        <div class="author-title">Authors</div>
+                        <div class="author">
+                            <img src="assets/images/author/linaAshar.jpg" alt="" class="author-img">
+                            <div class="author-name">Lina Ashar</div>
+                        </div>
+
+                    </div>
+                    <div class="week year">
+                        <div class="author-title">Top Rated Journals</div>
+
+
+                        <div class="year-book">
+                            <img src="assets/images/books/Test 1.png" alt="" class="year-book-img">
+                            <div class="year-book-content">
+                                <div class="year-book-name">Foundation Session</div>
+                                <div class="year-book-author">by Lina Ashar</div>
+                            </div>
+                        </div>
+                        <div class="year-book">
+                            <img src="assets/images/books/Test 21.png" alt="" class="year-book-img">
+                            <div class="year-book-content">
+                                <div class="year-book-name">Growth Mindset</div>
+                                <div class="year-book-author">by Lina Ashar</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="overlay"></div>
+                </div>
+                <div class="popular-books">
+                    <div class="main-menu">
+                        <div class="genre">Journal by Month</div>
+                        <div class="book-types">
+                            <a href="#" class="book-type active"> All Journals</a>
+                            <a href="#" class="book-type"> March</a>
+                            <a href="#" class="book-type"> February</a>
+                            <a href="#" class="book-type"> January</a>
+                            <a href="#" class="book-type"> December</a>
+                            <a href="#" class="book-type"> More</a>
+                        </div>
+                    </div>
+                    <div class="book-cards">
+
+
+                        <div class="book-card">
+                            <div class="content-wrapper">
+                                <img src="assets/images/books/Test 1.png" alt="" class="book-card-img">
+                                <div class="card-content">
+                                    <div class="book-name">Korroborree Journal 1</div>
+                                    <div class="book-by">by Lina Ashar</div>
+                                    <div class="rate">
+                                        <fieldset class="rating book-rate">
+                                            <input type="checkbox" id="star-c1" name="rating" value="5">
+                                            <label class="full" for="star-c1"></label>
+                                            <input type="checkbox" id="star-c2" name="rating" value="4">
+                                            <label class="full" for="star-c2"></label>
+                                            <input type="checkbox" id="star-c3" name="rating" value="3">
+                                            <label class="full" for="star-c3"></label>
+                                            <input type="checkbox" id="star-c4" name="rating" value="2">
+                                            <label class="full" for="star-c4"></label>
+                                            <input type="checkbox" id="star-c5" name="rating" value="1">
+                                            <label class="full" for="star-c5"></label>
+                                        </fieldset>
+                                        <span class="book-voters card-vote">10000 Voters</span>
+                                    </div>
+                                    <div class="book-sum card-sum">Lorem ipsum, or lipsum as it is sometimes known, is
+                                        dummy text used in
+                                        laying out print, graphic or web designs. The passage is attributed to an
+                                        unknown typesetter in the
+                                        15th
+                                        century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et
+                                        Malorum for use in a
+                                        type specimen book </div>
+                                </div>
+                            </div>
+                            <div class="likes">
+                                <div class="like-profile">
+                                    <img src="https://randomuser.me/api/portraits/women/63.jpg" alt="" class="like-img">
+                                </div>
+                                <div class="like-profile">
+                                    <img src="https://pbs.twimg.com/profile_images/2452384114/noplz47r59v1uxvyg8ku.png"
+                                        alt="" class="like-img">
+                                </div>
+                                <div class="like-profile">
+                                    <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=80"
+                                        alt="" class="like-img">
+                                </div>
+                                <div class="like-name"><span>Samantha William</span> and<span> 2 other friends</span>
+                                    like this</div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+                        <div class="book-card">
+                            <div class="content-wrapper">
+                                <img src="assets/images/books/Test 21.png" alt="" class="book-card-img">
+                                <div class="card-content">
+                                    <div class="book-name">Korroborree Journal 3</div>
+                                    <div class="book-by">by Lina Ashar</div>
+                                    <div class="rate">
+                                        <fieldset class="rating book-rate">
+                                            <input type="checkbox" id="star-c1" name="rating" value="5">
+                                            <label class="full" for="star-c1"></label>
+                                            <input type="checkbox" id="star-c2" name="rating" value="4">
+                                            <label class="full" for="star-c2"></label>
+                                            <input type="checkbox" id="star-c3" name="rating" value="3">
+                                            <label class="full" for="star-c3"></label>
+                                            <input type="checkbox" id="star-c4" name="rating" value="2">
+                                            <label class="full" for="star-c4"></label>
+                                            <input type="checkbox" id="star-c5" name="rating" value="1">
+                                            <label class="full" for="star-c5"></label>
+                                        </fieldset>
+                                        <span class="book-voters card-vote">10000 Voters</span>
+                                    </div>
+                                    <div class="book-sum card-sum">Lorem ipsum, or lipsum as it is sometimes known, is
+                                        dummy text used in
+                                        laying out print, graphic or web designs. The passage is attributed to an
+                                        unknown typesetter in the
+                                        15th
+                                        century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et
+                                        Malorum for use in a
+                                        type specimen book </div>
+                                </div>
+                            </div>
+                            <div class="likes">
+                                <div class="like-profile">
+                                    <img src="https://randomuser.me/api/portraits/women/63.jpg" alt="" class="like-img">
+                                </div>
+                                <div class="like-profile">
+                                    <img src="https://pbs.twimg.com/profile_images/2452384114/noplz47r59v1uxvyg8ku.png"
+                                        alt="" class="like-img">
+                                </div>
+                                <div class="like-profile">
+                                    <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=80"
+                                        alt="" class="like-img">
+                                </div>
+                                <div class="like-name"><span>Samantha William</span> and<span> 2 other friends</span>
+                                    like this</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- SECTION
+        ================================================== -->
+            <!-- FOOTER
+               ================================================== -->
+            <section class="section footer-1 section-padding-top-bottom">
+                <div class="container">
+                    <div class="four columns" data-scroll-reveal="enter left move 200px over 0.5s after 0.8s">
+                        <a href="index.html" class="animsition-link">
+                            <div class="logo-footer"></div>
+                        </a>
+                        <div style="padding-top: 2rem;"></div>
+                        <div class="social-bottom">
+                            <ul class="list-social">
+                                <li class="icon-soc">
+                                    <a href="#">&#xf09a;</a>
+                                </li>
+                                <li class="icon-soc">
+                                    <a href="#">&#xf099;</a>
+                                </li>
+                                <li class="icon-soc">
+                                    <a href="#">&#xf16d;</a>
+                                </li>
+                                <li class="icon-soc">
+                                    <a href="#">&#xf16a;</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="four columns" data-scroll-reveal="enter left move 200px over 0.5s after 0.3s">
+                        <h6>Information</h6>
+                        <p>
+                            <a href="#">About Us</a> <br /> <br />
+                            <a href="#">Contact Us</a> <br /> <br />
+                            <a href="#">Terms &amp; Conditions</a> <br /> <br />
+                            <a href="#">Privacy Policy</a>
+                        </p>
+                    </div>
+                    <div class="four columns" data-scroll-reveal="enter right move 200px over 0.5s after 0.3s">
+                        <h6>Contact Us</h6>
+                        <p>
+                            497 Evergreen Rd. Roseville, <br />
+                            CA 95673 <br />
+                            <a href="tel:+44345678903">+44 345 678 903</a> <br />
+                            <a href="mailto:adobexd@gmail.com">adobexd@gmail.com</a>
+                        </p>
+                    </div>
+                    <div class="four columns" data-scroll-reveal="enter right move 200px over 0.5s after 0.8s">
+                        <h6>Subscribe to Our Newsletter</h6>
+                        <p>
+                            Get Regular Updates in your inbox
+                        </p>
+                        <div class="news-letter">
+                            <span class="wpcf7-form-control-wrap your-email">
+                                <input type="email" name="your-email" value="" size="40"
+                                    class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
+                                    aria-required="true" aria-invalid="false" placeholder="Your Email Address">
+                            </span>
+                        </div>
+                        <br /><br />
+                        <div class="own_btn">
+                            <a href="#" class="cd-read-more">Submit</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section footer-bottom">
+                <div class="container">
+                    <div class="sixteen columns">
+                        <p>© ALL RIGHTS RESERVED. MADE BY 5TH Dimension Technologies <span id="year"></span></p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <div class="scroll-to-top">&#xf106;</div>
+    </div>
+    <!-- JAVASCRIPT
+         ================================================== -->
+    <script type="text/javascript" src="assets/js/jquery-2.1.1.js"></script>
+    <script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.mobile.custom.min.js"></script>
+    <script type="text/javascript" src="assets/js/retina-1.1.0.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.animsition.min.js"></script>
+    <script type="text/javascript">
+        (function ($) {
+            "use strict";
+            $(document).ready(function () {
+
+                $(".animsition").animsition({
+
+                    inClass: 'zoom-in-sm',
+                    outClass: 'zoom-out-sm',
+                    inDuration: 1500,
+                    outDuration: 800,
+                    linkElement: '.animsition-link',
+                    // e.g. linkElement   :   'a:not([target="_blank"]):not([href^=#])'
+                    loading: true,
+                    loadingParentElement: 'body', //animsition wrapper element
+                    loadingClass: 'animsition-loading',
+                    unSupportCss: ['animation-duration',
+                        '-webkit-animation-duration',
+                        '-o-animation-duration'
+                    ],
+                    //"unSupportCss" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser. 
+                    //The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
+
+                    overlay: false,
+
+                    overlayClass: 'animsition-overlay-slide',
+                    overlayParentElement: 'body'
+                });
+            });
+        })(jQuery);
+    </script>
+    <script type="text/javascript" src="assets/js/jquery.themepunch.tools.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.themepunch.revolution.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.easing.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.hidescroll.min.js"></script>
+    <script type="text/javascript">
+        $('.header-top').hidescroll();
+    </script>
+    <script type="text/javascript" src="assets/js/smoothScroll.js"></script>
+
+    <script type="text/javascript" src="assets/js/jquery.counterup.min.js"></script>
+    <script type="text/javascript" src="assets/js/waypoints.min.js"></script>
+    <script type="text/javascript" src="assets/js/scrollReveal.js"></script>
+    <script type="text/javascript">
+        (function ($) {
+            "use strict";
+            window.scrollReveal = new scrollReveal();
+        })(jQuery);
+    </script>
+    <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
+    <script type="text/javascript">
+        (function ($) {
+            "use strict";
+            jQuery(document).ready(function () {
+                var offset = 450;
+                var duration = 500;
+                jQuery(window).scroll(function () {
+                    if (jQuery(this).scrollTop() > offset) {
+                        jQuery('.scroll-to-top').fadeIn(duration);
+                    } else {
+                        jQuery('.scroll-to-top').fadeOut(duration);
+                    }
+                });
+
+                jQuery('.scroll-to-top').click(function (event) {
+                    event.preventDefault();
+                    jQuery('html, body').animate({ scrollTop: 0 }, duration);
+                    return false;
+                })
+            });
+        })(jQuery);
+    </script>
+    <script type="text/javascript" src="assets/js/styleswitcher.js"></script>
+    <script type="text/javascript" src="assets/js/custom-index.js"></script>
+    <script type="text/javascript">
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
+
+    <!-- partial -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='assets/js/addcart.js'></script>
+    <!-- End Document
+         ================================================== -->
+</body>
+
+</html>

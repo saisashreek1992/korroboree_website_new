@@ -3807,7 +3807,7 @@ xkeyframes
 
 .blog-box-1 h6{
 	text-align:left;
-	padding-top:20px;
+	padding-top:40px;
 	padding-bottom:20px;
 }
 .blog-box-1 p{
@@ -5794,6 +5794,7 @@ a.quote-big-post-single h5:hover{
 .services-boxes-1{
 	position:relative;
 	width:100%;
+  
 }
 .services-boxes-1:after{
 	content: '';
@@ -5824,7 +5825,7 @@ a.quote-big-post-single h5:hover{
 	padding-bottom:20px;
 }
 .services-boxes-1 p{
-	text-align:left;
+	text-align:justify;
 	margin-left:70px;
 }
  
@@ -5985,7 +5986,7 @@ a.quote-big-post-single h5:hover{
 	line-height:30px;
 	letter-spacing:6px;
 	width:100%;
-	margin:0 auto;
+	margin-top: 40%;
 	text-align:center;
 	padding-bottom:20px;
 } 
@@ -7341,7 +7342,7 @@ Main components
 	z-index:2;
 }
 .parallax-section-padding-top-bottom{
-  padding-top: 253px;
+  padding-top: px;
   padding-bottom: 177px;
 }
 .parallax-section-padding-top-bottom-home{
@@ -7370,6 +7371,17 @@ Main components
 }
 .parallax-1 {
 	/* background: url("../images/group_1.png") repeat fixed; */
+	background-size: cover;
+	position: absolute;
+	top: 0; 
+	left: 0; 
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+	width:100%;  
+}
+.parallax-11 {
+	background: url("../images/countdown/hands.jpg");
 	background-size: cover;
 	position: absolute;
 	top: 0; 
