@@ -195,6 +195,32 @@
 p {
     padding-bottom: 1em;
 }
+
+.join_team{
+    color: black !important;
+     position: fixed;
+       left: 17rem;
+        margin-top: 27px;
+}
+.book-name{
+    overflow: visible;
+    white-space: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (min-device-width : 2561px) and (max-device-width : 3840px) {
     .fnt_incre{
         font-size: 130px;
@@ -211,6 +237,20 @@ p {
 @media only screen and (min-device-width : 1701px) and (max-device-width : 1920px) {
     .fnt_incre{
         font-size: 70px;
+    }
+
+}
+@media only screen and (min-device-width : 1701px) and (max-device-width : 1920px) {
+    .video_page{
+        width: 100%;
+    }
+
+}
+
+
+@media only screen and (min-device-width : 1701px) and (max-device-width : 1920px) {
+    .video_page{
+        width: 100%;
     }
 
 }

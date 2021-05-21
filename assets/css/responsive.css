@@ -1,0 +1,153 @@
+@media only screen and (min-device-width : 2561px) and (max-device-width : 3840px) {
+  .crete{
+    font-size: 80px ;
+  }
+}
+@media only screen and (min-device-width : 1921px) and (max-device-width : 2560px) {
+  .crete{
+    font-size: 70px ;
+  }
+}
+
+@media only screen and (min-device-width : 1701px) and (max-device-width : 1920px) {
+  .img_1 img{
+    left: 70rem; 
+  }
+  .join_team{
+    left: 25rem;
+  }
+  .midle_size{
+    height: 260px;
+  }
+  .mb-30_li{
+    margin-bottom: 30px;
+  }
+}
+
+
+@media only screen and (max-width: 425px) {
+    .cd-logo img {
+      width: 130px;
+    }
+    .crete{
+      font-size: 50px ;
+    }
+    .video_page{
+      width: 100%;
+      padding-top: 50px;
+    }
+    .cd-timeline-content .cd-read-more{
+      font-size: 8px;
+      padding: 3px 17px;
+    }
+    h1{
+      font-size: 2rem !important;
+    }
+    .add-to-cart{
+      font-size: 12px;
+      padding: 6px 18px;
+    }
+    .book-see{
+      font-size: 12px;
+      padding: 4px;
+    }
+    .add-to-cart .default:before, .add-to-cart .default:after{
+      height: 10px;
+    }
+    .cd-primary-nav .cd-nav-icons .cd-nav-item{
+      padding-left: 34px;
+    }
+    .cd-primary-nav .cd-nav-icons .cd-nav-item h3{
+      padding-left: 50px;
+    }
+    .mbl_img{
+      width: 55%;
+    }
+    .facts-box-1{
+      width: 65%;
+      margin: 0px;
+    }
+    .txt_size_mbl_team{
+      font-size: 22px;
+    }
+    .container  .mrgin_tp_size{
+      margin-top: 14px;
+      width: 475px;
+    }
+    .join_team{
+      left: 120px;
+    }
+    .uk-margin-medium-bottom{
+      margin-top: 36px;
+    }
+    .book-card{
+      height: 314px;
+    }
+    .like-name{
+      white-space: normal;
+    }
+    .card-content{
+      padding: 6px;
+    }
+    .txt_size_mbl_team{
+      line-height: 25px;
+    }
+    .clr_white{
+      color: white;
+    }
+    .book-cell{
+      height: 280px;
+    }
+    .book-title{
+      font-size: 13px;
+    }
+    .book-cell:nth-child(1){
+      height: 400px;
+    }
+    .flickity-viewport{
+      height: 630px !important;
+    }
+  
+  }
+@media only screen and (max-width: 375px) {
+    .cd-logo img {
+      width: 130px;
+    }
+    .crete{
+      font-size: 50px ;
+    }
+    .video_page{
+      width: 100%;
+      padding-top: 50px;
+    }
+    .add-to-cart{
+      font-size: 14px;
+    }
+  
+  }
+
+  @media only screen and (max-width: 320px) {
+    .add-to-cart{
+      font-size: 12px;
+    }
+    .add-to-cart .default:before, .add-to-cart .default:after{
+      content: "";
+    width: 2px;
+    height: 8px;
+    left: 0;
+    top: 6px;
+    border-radius: 1px;
+    background: var(--icon);
+    position: absolute;
+    transform: rotate(var(--r, 0deg));
+    transition: transform 0.25s;
+    }
+    .add-to-cart .default{
+      padding-left: 18px;
+    }
+    .add-to-cart{
+      font-size: 10px;
+      border-radius: 8px;
+      padding: 0px 16px;
+    }
+  }

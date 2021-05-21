@@ -21,7 +21,8 @@
       <link rel="stylesheet" href="assets/css/settings.css"/>
       <link rel="stylesheet" href="assets/css/font-awesome.css" />
       <link rel="stylesheet" href="assets/css/owl.carousel.css"/>
-      <link rel="stylesheet" href="assets/css/retina.css"/>
+	  <link rel="stylesheet" href="assets/css/retina.css"/>
+	  <link rel="stylesheet" href="assets/css/addcart.css">
       <link rel="stylesheet" href="assets/css/animsition.min.css"/>
       <link rel="alternate stylesheet" type="text/css" href="assets/css/colors/color-gold.css" title="1">
       <link rel="alternate stylesheet" type="text/css" href="assets/css/colors/color-2.css" title="2">
@@ -31,16 +32,45 @@
       <link rel="alternate stylesheet" type="text/css" href="assets/css/colors/color-6.css" title="6">
       <link rel="alternate stylesheet" type="text/css" href="assets/css/colors/color-7.css" title="7">
 	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css">
-	  <link rel="stylesheet" href="assets/css/cart/cart.css"/>
+	  
 	  <link rel="stylesheet" href="assets/css/cart/main.css"/> 
       <!-- Favicons
          ================================================== -->
       <link rel="shortcut icon" href="assets/images/favicon/favicon.png">
       <link rel="apple-touch-icon" href="assets/images/favicon/apple-touch-icon.png">
       <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicon/apple-touch-icon-72x72.png">
-      <link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicon/apple-touch-icon-114x114.png">
+	  <link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicon/apple-touch-icon-114x114.png">
+	  
+
+
+
+
+	  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+	  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+	  crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+	  integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+	  crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+	  integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+	  crossorigin="anonymous"></script>
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css'>
+	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;display=swap'>
+  
+
+	  <link rel="stylesheet" href="assets/css/own.css">
+
+	  <link rel="stylesheet" href="assets/css/responsive.css">
+
+	  <style>
+		button:focus {
+		  outline: none;
+		  border: none;
+	
+		}
+	  </style>
    </head>
-   <body>
+   <body >
       <!-- Primary Page Layout
          ================================================== -->
       <div class="animsition">	
@@ -55,411 +85,371 @@
                </ul>
                <!-- cd-header-buttons -->
             </header>
-            <nav class="cd-nav">
-               <ul id="cd-primary-nav" class="cd-primary-nav is-fixed">
-                  <li>
-                     <a href="index.html" class="animsition-link">Home</a>
-                  </li>
-				  <li class="has-children">
-                     <a href="#">About</a>
-                     <ul class="cd-nav-icons is-hidden">
-                        <li>
-                           <a class="cd-nav-item item-1 animsition-link" href="who_we_are.html">
-                              <h3>Who We Are</h3>
-                           </a>
-                        </li>
-                        <li>
-                           <a class="cd-nav-item item-2 animsition-link" href="our_team.html">
-                              <h3>Our Team</h3>
-                           </a>
-                        </li>
-                        <li>
-                           <a class="cd-nav-item item-3 animsition-link" href="media_centre.html">
-                              <h3>Media Centre</h3>
-                           </a>
-                        </li>
-                        <li>
-                           <a class="cd-nav-item item-4 animsition-link" href="events.html">
-                              <h3>Events</h3>
-                           </a>
-                        </li>
-                     </ul>
-                  </li> 
-                  <li class="has-children">
-                     <a href="#">Products</a>
-                     <ul class="cd-nav-gallery is-hidden">
-                        <li>
-                           <a class="cd-nav-item animsition-link" href="products/products.html">
-                              <img src="assets/images/shop1.jpg" alt="Product Image">
-                              <h3>Product 1</h3>
-                           </a>
-                        </li>
-                        <li>
-                           <a class="cd-nav-item animsition-link" href="products/products.html">
-                              <img src="assets/images/shop2.jpg" alt="Product Image">
-                              <h3>Product 2</h3>
-                           </a>
-                        </li>
-                        <li>
-                           <a class="cd-nav-item animsition-link" href="products/products.html">
-                              <img src="assets/images/shop3.jpg" alt="Product Image">
-                              <h3>Product 3</h3>
-                           </a>
-                        </li>
-                        <li>
-                           <a class="cd-nav-item animsition-link" href="products/products.html">
-                              <img src="assets/images/shop4.jpg" alt="Product Image">
-                              <h3>Product 4</h3>
-                           </a>
-                        </li>
-                     </ul>
-                  </li>
-                  <li class="has-children">
-                     <a href="#">Resources</a>
-                     <ul class="cd-nav-icons is-hidden">
-                        <li>
-                           <a class="cd-nav-item item-1 animsition-link" href="resources/courses.html">
-                              <h3>Courses</h3>
-                           </a>
-                        </li>
-                        <li>
-                           <a class="cd-nav-item item-2 animsition-link" href="resources/journals.html">
-                              <h3>Journals</h3>
-                           </a>
-                        </li>
-                        <li>
-                           <a class="cd-nav-item item-3 animsition-link" href="resources/video_journals.html">
-                              <h3>Video Journals</h3>
-                           </a>
-                        </li>
-                        <li>
-                           <a class="cd-nav-item item-4 animsition-link" href="resources/blog.html">
-                              <h3>Blog</h3>
-                           </a>
-                        </li>
-                     </ul>
-                  </li>
-                  <li>
-                     <a href="cart.html" class="animsition-link">Contact Us</a>
-                  </li>
-				  <li>
-                     <a href="sign_in.html" class="animsition-link active" style="color: #00afef !important;">Sign In</a>
-                  </li> 
-                  <li>
-                     <a href="cart.html" class="animsition-link"><i class="fa fa-fw">&#xf07a;</i>cart</a>
-                  </li>
-               </ul>
-               <!-- primary-nav -->
-            </nav>
+			<nav class="cd-nav">
+				<ul id="cd-primary-nav" class="cd-primary-nav is-fixed">
+				   <li>
+					  <a href="index.html" class="animsition-link">Home</a>
+				   </li>
+				   <li class="has-children">
+					  <a href="#">About</a>
+					  <ul class="cd-nav-icons is-hidden">
+						 <li>
+							<a class="cd-nav-item item-1 animsition-link" href="pages/about/who_we_are.html">
+							   <h3>Who We Are</h3>
+							</a>
+						 </li>
+						 <li>
+							<a class="cd-nav-item item-2 animsition-link" href="pages/about/our_team.html">
+							   <h3>Our Team</h3>
+							</a>
+						 </li>
+						 <li>
+							<a class="cd-nav-item item-3 animsition-link" href="pages/about/media_centre.html">
+							   <h3>Media Centre</h3>
+							</a>
+						 </li>
+						 <li>
+							<a class="cd-nav-item item-4 animsition-link" href="pages/about/events.html">
+							   <h3>Events</h3>
+							</a>
+						 </li>
+					  </ul>
+				   </li> 
+				   <li class="has-children">
+					  <a href="#">Products</a>
+					  <ul class="cd-nav-gallery is-hidden">
+						 <li>
+							<a class="cd-nav-item animsition-link" href="pages/products/products.html">
+							   <img src="assets/images/shop1.jpg" alt="Product Image">
+							   <h3>Product 1</h3>
+							</a>
+						 </li>
+						 <li>
+							<a class="cd-nav-item animsition-link" href="pages/products/products.html">
+							   <img src="assets/images/shop2.jpg" alt="Product Image">
+							   <h3>Product 2</h3>
+							</a>
+						 </li>
+						 <li>
+							<a class="cd-nav-item animsition-link" href="pages/products/products.html">
+							   <img src="assets/images/shop3.jpg" alt="Product Image">
+							   <h3>Product 3</h3>
+							</a>
+						 </li>
+						 <li>
+							<a class="cd-nav-item animsition-link" href="pages/products/products.html">
+							   <img src="assets/images/shop4.jpg" alt="Product Image">
+							   <h3>Product 4</h3>
+							</a>
+						 </li>
+					  </ul>
+				   </li>
+				   <li class="has-children">
+					  <a href="#">Resources</a>
+					  <ul class="cd-nav-icons is-hidden">
+						 <li>
+							<a class="cd-nav-item item-1 animsition-link" href="index.html">
+							   <h3>Courses</h3>
+							</a>
+						 </li>
+						 <li>
+							<a class="cd-nav-item item-2 animsition-link" href="journal_new.html">
+							   <h3>Journals</h3>
+							</a>
+						 </li>
+						 <li>
+							<a class="cd-nav-item item-3 animsition-link" href="video_jornal.html">
+							   <h3>Video Journals</h3>
+							</a>
+						 </li>
+						 <li>
+							<a class="cd-nav-item item-4 animsition-link" href="index.html">
+							   <h3>Blog</h3>
+							</a>
+						 </li>
+					  </ul>
+				   </li>
+				   <li>
+					  <a href="contact.html" class="animsition-link">Contact Us</a>
+				   </li>
+				   <li>
+					  <a href="sign_in.html" class="animsition-link active" style="color: #00afef !important;">Sign In</a>
+				   </li> 
+				   <li>
+					  <a href="cart.html" class="animsition-link"><i class="fa fa-fw">&#xf07a;</i>cart</a>
+				   </li>
+				</ul>
+				<!-- primary-nav -->
+			 </nav>
             <!-- cd-nav -->
             <div id="cd-search" class="cd-search">
                <form>
                   <input type="search" placeholder="Search...">
                </form>
             </div>
-         </div>
+         </div> 
          <main class="cd-main-content">
 			
-			 <div class="book-store">
-				 <div class="header"></div>
-				 <div class="book-slide">
-					<div class="book js-flickity" data-flickity-options='{ "wrapAround": true }'>
-					   <div class="book-cell">
-						  <div class="book-img">
-							 <img src="https://images-na.ssl-images-amazon.com/images/I/81WcnNQ-TBL.jpg" alt="" class="book-photo">
-						  </div>
-						  <div class="book-content">
-							 <div class="book-title">Foundation Session</div>
-							 <div class="book-author">Korroborree</div>
-							 <!--<div class="rate">
-								<fieldset class="rating">
-								   <input type="checkbox" id="star5" name="rating" value="5" />
-								   <label class="full" for="star5"></label>
-								   <input type="checkbox" id="star4" name="rating" value="4" />
-								   <label class="full" for="star4"></label>
-								   <input type="checkbox" id="star3" name="rating" value="3" />
-								   <label class="full" for="star3"></label>
-								   <input type="checkbox" id="star2" name="rating" value="2" />
-								   <label class="full" for="star2"></label>
-								   <input type="checkbox" id="star1" name="rating" value="1" />
-								   <label class="full" for="star1"></label>
-								</fieldset>
-								<span class="book-voters">1.987 voters</span>
-							 </div>-->
-							 <div class="book-sum">Readers of all ages and walks of life have drawn inspiration and empowerment from Elizabeth Gilbert’s books for years. </div>
-							 <button class="add-to-cart">
-								<div class="default">Add to cart</div>
-								<div class="success">Added</div>
-								<div class="cart">
-									<div>
-										<div></div>
-										<div></div>
-									</div>
-								</div>
-								<div class="dots"></div>
-							</button>
-						  </div>
-					   </div>
-					   <div class="book-cell">
-						  <div class="book-img">
-							 <img src="https://i.pinimg.com/originals/a8/b9/ff/a8b9ff74ed0f3efd97e09a7a0447f892.jpg" alt="" class="book-photo">
-						  </div>
-						  <div class="book-content">
-							 <div class="book-title">Ten Thousand Skies Above You</div>
-							 <div class="book-author">by Claudia Gray</div>
-							 <div class="rate">
-								<fieldset class="rating blue">
-								   <input type="checkbox" id="star6" name="rating" value="5" />
-								   <label class="full1" for="star6"></label>
-								   <input type="checkbox" id="star7" name="rating" value="4" />
-								   <label class="full1" for="star7"></label>
-								   <input type="checkbox" id="star8" name="rating" value="3" />
-								   <label class="full1" for="star8"></label>
-								   <input type="checkbox" id="star9" name="rating" value="2" />
-								   <label class="full1" for="star9"></label>
-								   <input type="checkbox" id="star10" name="rating" value="1" />
-								   <label class="full1" for="star10"></label>
-								</fieldset>
-								<span class="book-voters">1.987 voters</span>
-							 </div>
-							 <div class="book-sum">The hunt for each splinter of Paul's soul sends Marguerite racing through a war-torn San Francisco.</div>
-							 <button class="add-to-cart">
-								<div class="default">Add to cart</div>
-								<div class="success">Added</div>
-								<div class="cart">
-									<div>
-										<div></div>
-										<div></div>
-									</div>
-								</div>
-								<div class="dots"></div>
-							</button>
-						  </div>
-					   </div>
-					   <div class="book-cell">
-						  <div class="book-img">
-							 <img src="https://www.abebooks.com/blog/wp-content/uploads/2016/08/10.jpg" alt="" class="book-photo">
-						  </div>
-						  <div class="book-content">
-							 <div class="book-title">A Tale For The Time Being</div>
-							 <div class="book-author">by Ruth Ozeki</div>
-							 <div class="rate">
-								<fieldset class="rating purple">
-								   <input type="checkbox" id="star11" name="rating" value="5" />
-								   <label class="full" for="star11"></label>
-								   <input type="checkbox" id="star12" name="rating" value="4" />
-								   <label class="full" for="star12"></label>
-								   <input type="checkbox" id="star13" name="rating" value="3" />
-								   <label class="full" for="star13"></label>
-								   <input type="checkbox" id="star14" name="rating" value="2" />
-								   <label class="full" for="star14"></label>
-								   <input type="checkbox" id="star15" name="rating" value="1" />
-								   <label class="full" for="star15"></label>
-								</fieldset>
-								<span class="book-voters">1.987 voters</span>
-							 </div>
-							 <div class="book-sum">In Tokyo, sixteen-year-old Nao has decided there’s only one escape from her aching loneliness and her classmates’ bullying.</div>
-							 <button class="add-to-cart">
-								<div class="default">Add to cart</div>
-								<div class="success">Added</div>
-								<div class="cart">
-									<div>
-										<div></div>
-										<div></div>
-									</div>
-								</div>
-								<div class="dots"></div>
-							</button>
-						  </div>
-					   </div>
-					   <div class="book-cell">
-						  <div class="book-img">
-							 <img src="https://images-na.ssl-images-amazon.com/images/I/81af+MCATTL.jpg" alt="" class="book-photo">
-						  </div>
-						  <div class="book-content">
-							 <div class="book-title">The Great Gatsby</div>
-							 <div class="book-author">by F.Scott Fitzgerald</div>
-							 <div class="rate">
-								<fieldset class="rating yellow">
-								   <input type="checkbox" id="star16" name="rating" value="5" />
-								   <label class="full" for="star16"></label>
-								   <input type="checkbox" id="star17" name="rating" value="4" />
-								   <label class="full" for="star17"></label>
-								   <input type="checkbox" id="star18" name="rating" value="3" />
-								   <label class="full" for="star18"></label>
-								   <input type="checkbox" id="star19" name="rating" value="2" />
-								   <label class="full" for="star19"></label>
-								   <input type="checkbox" id="star20" name="rating" value="1" />
-								   <label class="full" for="star20"></label>
-								</fieldset>
-								<span class="book-voters">1.987 voters</span>
-							 </div>
-							 <div class="book-sum">The Great Gatsby, F. Scott Fitzgerald’s third book, stands as the supreme achievement of his career.</div>
-							 <button class="add-to-cart">
-								<div class="default">Add to cart</div>
-								<div class="success">Added</div>
-								<div class="cart">
-									<div>
-										<div></div>
-										<div></div>
-									</div>
-								</div>
-								<div class="dots"></div>
-							</button>
-						  </div>
-					   </div>
-					   <div class="book-cell">
-						  <div class="book-img">
-							 <img src="https://images-na.ssl-images-amazon.com/images/I/81UWB7oUZ0L.jpg" alt="" class="book-photo">
-						  </div>
-						  <div class="book-content">
-							 <div class="book-title">After You</div>
-							 <div class="book-author">by Jojo Moyes</div>
-							 <div class="rate">
-								<fieldset class="rating dark-purp">
-								   <input type="checkbox" id="star21" name="rating" value="5" />
-								   <label class="full" for="star21"></label>
-								   <input type="checkbox" id="star22" name="rating" value="4" />
-								   <label class="full" for="star22"></label>
-								   <input type="checkbox" id="star23" name="rating" value="3" />
-								   <label class="full" for="star23"></label>
-								   <input type="checkbox" id="star24" name="rating" value="2" />
-								   <label class="full" for="star24"></label>
-								   <input type="checkbox" id="star25" name="rating" value="1" />
-								   <label class="full" for="star25"></label>
-								</fieldset>
-								<span class="book-voters">1.987 voters</span>
-							 </div>
-							 <div class="book-sum">Louisa Clark is no longer just an ordinary girl living an ordinary life. After the transformative six months spent.</div>
-							 <button class="add-to-cart">
-								<div class="default">Add to cart</div>
-								<div class="success">Added</div>
-								<div class="cart">
-									<div>
-										<div></div>
-										<div></div>
-									</div>
-								</div>
-								<div class="dots"></div>
-							</button>
-						  </div>
-					   </div>
+			<div class="book-slide">
+				<div class="book js-flickity" data-flickity-options='{ "wrapAround": true }'>
+				  <div class="book-cell">
+					<div class="book-img">
+					  <img src="assets/images/books/Test 1.png" alt="" class="book-photo">
 					</div>
-				 </div>
-				 <div class="main-wrapper">
-					<div class="books-of">
-					   <div class="week">
-						  <div class="author-title">Author of the week</div>
-						  <div class="author">
-							 <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=80" alt="" class="author-img">
-							 <div class="author-name">Sebastian Jeremy</div>
-						  </div>
-					   </div>
-					   <div class="week year">
-						  <div class="author-title">Top Rated Journals</div>
-						  <div class="year-book">
-							 <img src="https://images-na.ssl-images-amazon.com/images/I/A1kNdYXw0GL.jpg" alt="" class="year-book-img">
-							 <div class="year-book-content">
-								<div class="year-book-name">Disappearing Earth</div>
-								<div class="year-book-author">by Julia Phillips</div>
-							 </div>
-						  </div>
-						  <div class="year-book">
-							 <img src="https://images-na.ssl-images-amazon.com/images/I/81eI0ExR+VL.jpg" alt="" class="year-book-img">
-							 <div class="year-book-content">
-								<div class="year-book-name">Lost Children Archive</div>
-								<div class="year-book-author">by Valeria Luiselli</div>
-							 </div>
-						  </div>
-					   </div>
-					   <div class="overlay"></div>
+					<div class="book-content">
+					  <div class="book-title">Korroborree Journal 1</div>
+					  <div class="book-author">Foundation Session </div>
+					  <!--  <div class="rate">
+				<fieldset class="rating">
+				 <input type="checkbox" id="star5" name="rating" value="5" />
+				 <label class="full" for="star5"></label>
+				 <input type="checkbox" id="star4" name="rating" value="4" />
+				 <label class="full" for="star4"></label>
+				 <input type="checkbox" id="star3" name="rating" value="3" />
+				 <label class="full" for="star3"></label>
+				 <input type="checkbox" id="star2" name="rating" value="2" />
+				 <label class="full" for="star2"></label>
+				 <input type="checkbox" id="star1" name="rating" value="1" />
+				 <label class="full" for="star1"></label>
+				</fieldset>
+				<span class="book-voters">1.987 voters</span>
+			   </div>-->
+					  <div class="book-sum" style="margin-top: 0px;"> Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out
+						print, graphic or web designs. The passage is attributed to an unknown
+						typesetter in the 15th century who is thought to have
+						scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.</div>
+						<a href="http://todlearning.com/journal1_f/index.html" target="_blank"><div class="book-see">View Journal</div></a>
+					  
 					</div>
-					<div class="popular-books">
-					   <div class="main-menu">
-						  <div class="genre">Journals By Month</div>
-						  <div class="book-types">
-							 <a href="#" class="book-type active"> All Journals</a>
-							 <a href="#" class="book-type"> April</a>
-							 <a href="#" class="book-type"> May</a>
-							 <a href="#" class="book-type"> June</a>
-							 <a href="#" class="book-type"> July</a>
-							 <a href="#" class="book-type"> August</a>
-						  </div>
-					   </div>
-					   <div class="book-cards">
-						  <div class="book-card">
-							 <div class="content-wrapper">
-								<img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2019%2F07%2Fchances-are-1-2000.jpg&q=85" alt="" class="book-card-img">
-								<div class="card-content">
-								   <div class="book-name">Changes Are</div>
-								   <div class="book-by">by Richard Russo</div>
-								   <div class="rate">
-									  <fieldset class="rating book-rate">
-										 <input type="checkbox" id="star-c1" name="rating" value="5">
-										 <label class="full" for="star-c1"></label>
-										 <input type="checkbox" id="star-c2" name="rating" value="4">
-										 <label class="full" for="star-c2"></label>
-										 <input type="checkbox" id="star-c3" name="rating" value="3">
-										 <label class="full" for="star-c3"></label>
-										 <input type="checkbox" id="star-c4" name="rating" value="2">
-										 <label class="full" for="star-c4"></label>
-										 <input type="checkbox" id="star-c5" name="rating" value="1">
-										 <label class="full" for="star-c5"></label>
-									  </fieldset>
-									  <span class="book-voters card-vote">1.987 voters</span>
-								   </div>
-								   <div class="book-sum card-sum">Readers of all ages and walks of life have drawn inspiration and empowerment from Elizabeth Gilbert’s books for years. </div>
-								</div>
-							 </div>
-							 <div class="likes">
-								<div class="like-profile">
-								   <img src="https://randomuser.me/api/portraits/women/63.jpg" alt="" class="like-img">
-								</div>
-								<div class="like-profile">
-								   <img src="https://pbs.twimg.com/profile_images/2452384114/noplz47r59v1uxvyg8ku.png" alt="" class="like-img">
-								</div>
-								<div class="like-profile">
-								   <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=80" alt="" class="like-img">
-								</div>
-								<div class="like-name"><span>Samantha William</span> and<span> 2 other friends</span> like this</div>
-							 </div>
-						  </div>
-						  <div class="book-card">
-							 <div class="content-wrapper">
-								<img src="https://images-na.ssl-images-amazon.com/images/I/7167iiDUeAL.jpg" alt="" class="book-card-img">
-								<div class="card-content">
-								   <div class="book-name">Dominicana</div>
-								   <div class="book-by">by Angie Cruz</div>
-								   <div class="rate">
-									  <fieldset class="rating book-rate">
-										 <input type="checkbox" id="star-c6" name="rating" value="5">
-										 <label class="full" for="star-c6"></label>
-										 <input type="checkbox" id="star-c7" name="rating" value="4">
-										 <label class="full" for="star-c7"></label>
-										 <input type="checkbox" id="star-c8" name="rating" value="3">
-										 <label class="full" for="star-c8"></label>
-										 <input type="checkbox" id="star-c9" name="rating" value="2">
-										 <label class="full" for="star-c9"></label>
-										 <input type="checkbox" id="star-c10" name="rating" value="1">
-										 <label class="full" for="star-c10"></label>
-									  </fieldset>
-									  <span class="book-voters card-vote">1.987 voters</span>
-								   </div>
-								   <div class="book-sum card-sum">Readers of all ages and walks of life have drawn inspiration and empowerment from Elizabeth Gilbert’s books for years. </div>
-								</div>
-							 </div>
-							 <div class="likes">
-								<div class="like-profile">
-								   <img src="https://randomuser.me/api/portraits/women/63.jpg" alt="" class="like-img">
-								</div>
-								<div class="like-name"><span>Kimberly Jones</span> like this</div>
-							 </div>
-						  </div>
-					   </div>
+				  </div>
+				  <div class="book-cell" >
+					<div class="book-img">
+					  <img src="assets/images/books/Test 21.png" alt="" class="book-photo">
 					</div>
-				 </div>
+					<div class="book-content">
+					  <div class="book-title">Korroborree Journal 3</div>
+					  <div class="book-author">Foundation Session </div>
+					  <!--  <div class="rate">
+				<fieldset class="rating">
+				 <input type="checkbox" id="star5" name="rating" value="5" />
+				 <label class="full" for="star5"></label>
+				 <input type="checkbox" id="star4" name="rating" value="4" />
+				 <label class="full" for="star4"></label>
+				 <input type="checkbox" id="star3" name="rating" value="3" />
+				 <label class="full" for="star3"></label>
+				 <input type="checkbox" id="star2" name="rating" value="2" />
+				 <label class="full" for="star2"></label>
+				 <input type="checkbox" id="star1" name="rating" value="1" />
+				 <label class="full" for="star1"></label>
+				</fieldset>
+				<span class="book-voters">1.987 voters</span>
+			   </div>-->
+					  <div class="book-sum" style="margin-top: 0px;"> Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out
+						print, graphic or web designs. The passage is attributed to an unknown
+						typesetter in the 15th century who is thought to have
+						scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.</div>
+					  <br>
+					  <button class="add-to-cart">
+						<div class="default">Add to cart</div>
+						<div class="success">Added</div>
+						<div class="cart">
+						  <div>
+							<div></div>
+							<div></div>
+						  </div>
+						</div>
+						<div class="dots"></div>
+					  </button>
+					</div>
+				  </div>
+				  <div class="book-cell"  >
+					<div class="book-img">
+					  <img src="assets/images/books/Test 21.png" alt="" class="book-photo">
+					</div>
+					<div class="book-content">
+					  <div class="book-title">Korroborree Journal 3</div>
+					  <div class="book-author">Foundation Session </div>
+					  <!--  <div class="rate">
+				<fieldset class="rating">
+				 <input type="checkbox" id="star5" name="rating" value="5" />
+				 <label class="full" for="star5"></label>
+				 <input type="checkbox" id="star4" name="rating" value="4" />
+				 <label class="full" for="star4"></label>
+				 <input type="checkbox" id="star3" name="rating" value="3" />
+				 <label class="full" for="star3"></label>
+				 <input type="checkbox" id="star2" name="rating" value="2" />
+				 <label class="full" for="star2"></label>
+				 <input type="checkbox" id="star1" name="rating" value="1" />
+				 <label class="full" for="star1"></label>
+				</fieldset>
+				<span class="book-voters">1.987 voters</span>
+			   </div>-->
+					  <div class="book-sum" style="margin-top: 0px;"> Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out
+						print, graphic or web designs. The passage is attributed to an unknown
+						typesetter in the 15th century who is thought to have
+						scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.</div>
+						
+						<br>
+						<button class="add-to-cart">
+
+							<div class="default">Add to cart</div>
+							<div class="success">Added</div>
+							<div class="cart">
+							  <div>
+								<div></div>
+								<div></div>
+							  </div>
+							</div>
+							<div class="dots"></div>
+						  </button>
+					</div>
+				  </div>
+				</div>
 			  </div>
-			 
+
+			  <div class="main-wrapper">
+				<div class="books-of">
+				  <div class="week">
+					<div class="author-title">Authors</div>
+					<div class="author">
+					  <img src="assets/images/author/linaAshar.jpg" alt="" class="author-img">
+					  <div class="author-name">Lina Ashar</div>
+					</div>
+		  
+				  </div>
+				  <div class="week year">
+					<div class="author-title">Top Rated Journals</div>
+		  
+		  
+					<div class="year-book">
+					  <img src="assets/images/books/Test 1.png" alt="" class="year-book-img">
+					  <div class="year-book-content">
+						<div class="year-book-name">Foundation Session</div>
+						<div class="year-book-author">by Lina Ashar</div>
+					  </div>
+					</div>
+					<div class="year-book">
+					  <img src="assets/images/books/Test 21.png" alt="" class="year-book-img">
+					  <div class="year-book-content">
+						<div class="year-book-name">Growth Mindset</div>
+						<div class="year-book-author">by Lina Ashar</div>
+					  </div>
+					</div>
+				  </div>
+				  <div class="overlay"></div>
+				</div>
+				<div class="popular-books">
+				  <div class="main-menu">
+					<div class="genre">Journal by Month</div>
+					<div class="book-types">
+					  <a href="#" class="book-type active"> All Journals</a>
+					  <a href="#" class="book-type"> March</a>
+					  <a href="#" class="book-type"> February</a>
+					  <a href="#" class="book-type"> January</a>
+					  <a href="#" class="book-type"> December</a>
+					  <a href="#" class="book-type"> More</a>
+					</div>
+				  </div>
+				  <div class="book-cards">
+		  
+		  
+					<div class="book-card">
+					  <div class="content-wrapper">
+						<img src="assets/images/books/Test 1.png" alt="" class="book-card-img">
+						<div class="card-content">
+						  <div class="book-name">Korroborree Journal 1</div>
+						  <div class="book-by">by Lina Ashar</div>
+						  <div class="rate">
+							<fieldset class="rating book-rate">
+							  <input type="checkbox" id="star-c1" name="rating" value="5">
+							  <label class="full" for="star-c1"></label>
+							  <input type="checkbox" id="star-c2" name="rating" value="4">
+							  <label class="full" for="star-c2"></label>
+							  <input type="checkbox" id="star-c3" name="rating" value="3">
+							  <label class="full" for="star-c3"></label>
+							  <input type="checkbox" id="star-c4" name="rating" value="2">
+							  <label class="full" for="star-c4"></label>
+							  <input type="checkbox" id="star-c5" name="rating" value="1">
+							  <label class="full" for="star-c5"></label>
+							</fieldset>
+							<span class="book-voters card-vote">10000 Voters</span>
+						  </div>
+						  <div class="book-sum card-sum">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in
+							laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the
+							15th
+							century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a
+							type specimen book </div>
+						</div>
+					  </div>
+					  <div class="likes">
+						<div class="like-profile">
+						  <img src="https://randomuser.me/api/portraits/women/63.jpg" alt="" class="like-img">
+						</div>
+						<div class="like-profile">
+						  <img src="https://pbs.twimg.com/profile_images/2452384114/noplz47r59v1uxvyg8ku.png" alt=""
+							class="like-img">
+						</div>
+						<div class="like-profile">
+						  <img
+							src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=80"
+							alt="" class="like-img">
+						</div>
+						<div class="like-name"><span>Samantha William</span> and<span> 2 other friends</span> like this</div>
+					  </div>
+					</div>
+		  
+		  
+		  
+		  
+		  
+		  
+					<div class="book-card">
+					  <div class="content-wrapper">
+						<img src="assets/images/books/Test 21.png" alt="" class="book-card-img">
+						<div class="card-content">
+						  <div class="book-name">Korroborree Journal 3</div>
+						  <div class="book-by">by Lina Ashar</div>
+						  <div class="rate">
+							<fieldset class="rating book-rate">
+							  <input type="checkbox" id="star-c1" name="rating" value="5">
+							  <label class="full" for="star-c1"></label>
+							  <input type="checkbox" id="star-c2" name="rating" value="4">
+							  <label class="full" for="star-c2"></label>
+							  <input type="checkbox" id="star-c3" name="rating" value="3">
+							  <label class="full" for="star-c3"></label>
+							  <input type="checkbox" id="star-c4" name="rating" value="2">
+							  <label class="full" for="star-c4"></label>
+							  <input type="checkbox" id="star-c5" name="rating" value="1">
+							  <label class="full" for="star-c5"></label>
+							</fieldset>
+							<span class="book-voters card-vote">10000 Voters</span>
+						  </div>
+						  <div class="book-sum card-sum">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in
+							laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the
+							15th
+							century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a
+							type specimen book </div>
+						</div>
+					  </div>
+					  <div class="likes">
+						<div class="like-profile">
+						  <img src="https://randomuser.me/api/portraits/women/63.jpg" alt="" class="like-img">
+						</div>
+						<div class="like-profile">
+						  <img src="https://pbs.twimg.com/profile_images/2452384114/noplz47r59v1uxvyg8ku.png" alt=""
+							class="like-img">
+						</div>
+						<div class="like-profile">
+						  <img
+							src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=80"
+							alt="" class="like-img">
+						</div>
+						<div class="like-name"><span>Samantha William</span> and<span> 2 other friends</span> like this</div>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			  </div>
             <!-- FOOTER
                ================================================== -->	
             <section class="section footer-1 section-padding-top-bottom">
@@ -611,10 +601,14 @@
       <script type="text/javascript" src="assets/js/custom-index.js"></script>
 	  <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	  <script src="assets/js/cart/cart.js"></script> 
+	
 	  <script type="text/javascript">
+	  
 		  document.getElementById("year").innerHTML = new Date().getFullYear();
 	  </script> 
+
+
+<script src="assets/js/addcart.js"></script>
       <!-- End Document
          ================================================== -->
    </body>
