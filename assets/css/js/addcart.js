@@ -3,3 +3,4 @@ document.querySelectorAll('.add-to-cart').forEach(button => {
         button.classList.toggle('added');
     });
 });
+

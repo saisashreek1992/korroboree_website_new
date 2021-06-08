@@ -271,6 +271,14 @@ Main components
 
 
 
+/* 
+.cd-main-header {
+  height: 50px;
+  background: rgba(255,255,255,.96);
+  z-index: 3;
+} */
+
+
 
 .cd-main-header {
   height: 50px;
@@ -5826,7 +5834,7 @@ a.quote-big-post-single h5:hover{
 	padding-bottom:20px;
 }
 .services-boxes-1 p{
-	text-align:justify;
+
 	margin-left:70px;
 }
  
@@ -9036,7 +9044,7 @@ Main components
   }
   .cd-primary-nav > li {
     float: left;
-    margin-left: 3em;
+    margin-left: 2em;
   }
   .cd-primary-nav > li > a {
     /* main navigation buttons style */

@@ -36,10 +36,10 @@
 	  <link rel="stylesheet" href="assets/css/cart/main.css"/> 
       <!-- Favicons
          ================================================== -->
-      <link rel="shortcut icon" href="assets/images/favicon/favicon.png">
+     <!--  <link rel="shortcut icon" href="assets/images/favicon/favicon.png">
       <link rel="apple-touch-icon" href="assets/images/favicon/apple-touch-icon.png">
       <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicon/apple-touch-icon-72x72.png">
-	  <link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicon/apple-touch-icon-114x114.png">
+	  <link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicon/apple-touch-icon-114x114.png"> -->
 	  
 
 
@@ -68,6 +68,64 @@
 		  border: none;
 	
 		}
+
+		.dropbtn2 {
+			background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 84%;
+    margin-left: 30px;
+}
+
+.dropbtn2:hover, .dropbtn2:focus {
+  background-color: #3e8e41;
+}
+
+#myInput2 {
+  box-sizing: border-box;
+  background-image: url('searchicon.png');
+  background-position: 14px 12px;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  padding: 14px 20px 12px 45px;
+  border: none;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+}
+
+#myInput2:focus {outline: 3px solid #ddd;}
+
+.dropdown2 {
+  position: relative;
+  z-index: 09;
+  display: inline-block;
+}
+
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color: #f6f6f6;
+  min-width: 230px;
+  overflow: auto;
+  border: 1px solid #ddd;
+  z-index: 1;
+  width: 84%;
+    margin-left: 30px;
+}
+
+.dropdown-content2 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown2 a:hover {background-color: #ddd;}
+
+.show {display: block;}
 	  </style>
    </head>
    <body >
@@ -187,7 +245,9 @@
                   <input type="search" placeholder="Search...">
                </form>
             </div>
-         </div> 
+		 </div> 
+		 <br>
+		 <br>
          <main class="cd-main-content">
 			
 			<div class="book-slide">
@@ -199,26 +259,12 @@
 					<div class="book-content">
 					  <div class="book-title">Korroborree Journal 1</div>
 					  <div class="book-author">Foundation Session </div>
-					  <!--  <div class="rate">
-				<fieldset class="rating">
-				 <input type="checkbox" id="star5" name="rating" value="5" />
-				 <label class="full" for="star5"></label>
-				 <input type="checkbox" id="star4" name="rating" value="4" />
-				 <label class="full" for="star4"></label>
-				 <input type="checkbox" id="star3" name="rating" value="3" />
-				 <label class="full" for="star3"></label>
-				 <input type="checkbox" id="star2" name="rating" value="2" />
-				 <label class="full" for="star2"></label>
-				 <input type="checkbox" id="star1" name="rating" value="1" />
-				 <label class="full" for="star1"></label>
-				</fieldset>
-				<span class="book-voters">1.987 voters</span>
-			   </div>-->
+						<br>
 					  <div class="book-sum" style="margin-top: 0px;"> Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out
-						print, graphic or web designs. The passage is attributed to an unknown
-						typesetter in the 15th century who is thought to have
-						scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.</div>
-						<a href="http://todlearning.com/journal1_f/index.html" target="_blank"><div class="book-see">View Journal</div></a>
+						print, graphic or web designs. </div>
+						<!-- <a href="http://todlearning.com/journal1_f/index.html" target="_blank"><div class="book-see">View Journal</div></a> -->
+
+
 					  
 					</div>
 				  </div>
@@ -229,27 +275,11 @@
 					<div class="book-content">
 					  <div class="book-title">Korroborree Journal 3</div>
 					  <div class="book-author">Foundation Session </div>
-					  <!--  <div class="rate">
-				<fieldset class="rating">
-				 <input type="checkbox" id="star5" name="rating" value="5" />
-				 <label class="full" for="star5"></label>
-				 <input type="checkbox" id="star4" name="rating" value="4" />
-				 <label class="full" for="star4"></label>
-				 <input type="checkbox" id="star3" name="rating" value="3" />
-				 <label class="full" for="star3"></label>
-				 <input type="checkbox" id="star2" name="rating" value="2" />
-				 <label class="full" for="star2"></label>
-				 <input type="checkbox" id="star1" name="rating" value="1" />
-				 <label class="full" for="star1"></label>
-				</fieldset>
-				<span class="book-voters">1.987 voters</span>
-			   </div>-->
+						<br>
 					  <div class="book-sum" style="margin-top: 0px;"> Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out
-						print, graphic or web designs. The passage is attributed to an unknown
-						typesetter in the 15th century who is thought to have
-						scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.</div>
+						print, graphic or web designs. </div>
 					  <br>
-					  <button class="add-to-cart">
+					<!--   <button class="add-to-cart">
 						<div class="default">Add to cart</div>
 						<div class="success">Added</div>
 						<div class="cart">
@@ -259,7 +289,7 @@
 						  </div>
 						</div>
 						<div class="dots"></div>
-					  </button>
+					  </button> -->
 					</div>
 				  </div>
 				  <div class="book-cell"  >
@@ -269,28 +299,12 @@
 					<div class="book-content">
 					  <div class="book-title">Korroborree Journal 3</div>
 					  <div class="book-author">Foundation Session </div>
-					  <!--  <div class="rate">
-				<fieldset class="rating">
-				 <input type="checkbox" id="star5" name="rating" value="5" />
-				 <label class="full" for="star5"></label>
-				 <input type="checkbox" id="star4" name="rating" value="4" />
-				 <label class="full" for="star4"></label>
-				 <input type="checkbox" id="star3" name="rating" value="3" />
-				 <label class="full" for="star3"></label>
-				 <input type="checkbox" id="star2" name="rating" value="2" />
-				 <label class="full" for="star2"></label>
-				 <input type="checkbox" id="star1" name="rating" value="1" />
-				 <label class="full" for="star1"></label>
-				</fieldset>
-				<span class="book-voters">1.987 voters</span>
-			   </div>-->
+			<br>
 					  <div class="book-sum" style="margin-top: 0px;"> Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out
-						print, graphic or web designs. The passage is attributed to an unknown
-						typesetter in the 15th century who is thought to have
-						scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.</div>
+						print, graphic or web designs.</div>
 						
 						<br>
-						<button class="add-to-cart">
+					<!-- 	<button class="add-to-cart">
 
 							<div class="default">Add to cart</div>
 							<div class="success">Added</div>
@@ -301,14 +315,57 @@
 							  </div>
 							</div>
 							<div class="dots"></div>
-						  </button>
+						  </button> -->
 					</div>
 				  </div>
 				</div>
 			  </div>
 
+
+
+		
+<div class="dropdown2" style="display: none;">
+	<button onclick="myFunction2()" class="dropbtn2">All</button>
+	<div id="myDropdown2" class="dropdown-content2" align="center">
+	  <input type="text" placeholder="Search.." id="myInput2" onkeyup="filterFunction()">
+	  <a href="#" id="author">Authors</a>
+	  <a href="#base">Top Rated Journals</a>
+	  <a href="#blog">Journal by Month</a>
+
+	</div>
+  </div>
+
+  <select id="month">
+    <option value="1">January</option>
+    <option value="2">February</option>
+    <option value="3">March</option>
+    <option value="4">April</option>
+    <option value="5">May</option>
+    <option value="6">June</option>
+    <option value="7">July</option>
+    <option value="8">August</option>
+    <option value="9">September</option>
+    <option value="10">October</option>
+    <option value="11">November</option>
+    <option value="12">December</option>
+</select>
+<select >
+  
+	<option value="1">2015</option>
+    <option value="2">2016</option>
+    <option value="3">2017</option>
+    <option value="4">2018</option>
+</select>
+
+
+
+
+				  
+			
+
+			
 			  <div class="main-wrapper">
-				<div class="books-of">
+				<div class="books-of" >
 				  <div class="week">
 					<div class="author-title">Authors</div>
 					<div class="author">
@@ -350,6 +407,21 @@
 					  <a href="#" class="book-type"> More</a>
 					</div>
 				  </div>
+				  
+				
+
+				  <div onclick="myFunction()" class="mbl_drp_dwn dropbtn jornlll " style="display: none;">
+					Journal by Month
+					<div id="myDropdown" class="dropdown-content">
+					  <a href="#">All Journals</a>
+					  <a href="#">March</a>
+					  <a href="#">February</a>
+					</div>
+				  </div>
+			
+				
+
+
 				  <div class="book-cards">
 		  
 		  
@@ -375,10 +447,18 @@
 							<span class="book-voters card-vote">10000 Voters</span>
 						  </div>
 						  <div class="book-sum card-sum">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in
-							laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the
-							15th
-							century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a
-							type specimen book </div>
+							laying out print, graphic or web designs.  </div>
+							<button class="add-to-cart">
+								<div class="default">Add to cart</div>
+								<div class="success">Added</div>
+								<div class="cart">
+								  <div>
+									<div></div>
+									<div></div>
+								  </div>
+								</div>
+								<div class="dots"></div>
+							  </button>
 						</div>
 					  </div>
 					  <div class="likes">
@@ -425,10 +505,18 @@
 							<span class="book-voters card-vote">10000 Voters</span>
 						  </div>
 						  <div class="book-sum card-sum">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in
-							laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the
-							15th
-							century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a
-							type specimen book </div>
+							laying out print, graphic or web designs. </div>
+							<button class="add-to-cart">
+								<div class="default">Add to cart</div>
+								<div class="success">Added</div>
+								<div class="cart">
+								  <div>
+									<div></div>
+									<div></div>
+								  </div>
+								</div>
+								<div class="dots"></div>
+							  </button>
 						</div>
 					  </div>
 					  <div class="likes">
@@ -609,6 +697,71 @@
 
 
 <script src="assets/js/addcart.js"></script>
+
+
+<!-- dropdown -->
+
+<script>
+	/* When the user clicks on the button, 
+	toggle between hiding and showing the dropdown content */
+	function myFunction() {
+	  document.getElementById("myDropdown").classList.toggle("show");
+	}
+	
+	// Close the dropdown if the user clicks outside of it
+	window.onclick = function(event) {
+	  if (!event.target.matches('.dropbtn')) {
+		var dropdowns = document.getElementsByClassName("dropdown-content");
+		var i;
+		for (i = 0; i < dropdowns.length; i++) {
+		  var openDropdown = dropdowns[i];
+		  if (openDropdown.classList.contains('show')) {
+			openDropdown.classList.remove('show');
+		  }
+		}
+	  }
+	}
+	</script>
+
+
+<!-- filter -->
+
+<script>
+	/* When the user clicks on the button,
+	toggle between hiding and showing the dropdown content */
+	function myFunction2() {
+	  document.getElementById("myDropdown2").classList.toggle("show");
+	}
+	
+	function filterFunction() {
+	  var input, filter, ul, li, a, i;
+	  input = document.getElementById("myInput2");
+	  filter = input.value.toUpperCase();
+	  div = document.getElementById("myDropdown2");
+	  a = div.getElementsByTagName("a");
+	  for (i = 0; i < a.length; i++) {
+		txtValue = a[i].textContent || a[i].innerText;
+		if (txtValue.toUpperCase().indexOf(filter) > -1) {
+		  a[i].style.display = "";
+		} else {
+		  a[i].style.display = "none";
+		}
+	  }
+	}
+	</script>
+	<script>
+		$("#Authors").click(function(){
+  $("#books_page_mbl").show();
+  $(".popular-books").hide();
+});
+	</script>
+
+	<script>
+
+	</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+
       <!-- End Document
          ================================================== -->
    </body>
